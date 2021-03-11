@@ -1,0 +1,325 @@
+body {
+  font-family: 'poppins';
+}
+h5,
+h2,
+h3,
+h6 {
+  color: #0a2e09;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar {
+  background-color: #023933;
+  font-size: 16px;
+}
+
+.nav-link {
+  margin-right: 60px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 300px;
+}
+
+.btn-login {
+  width: 131px;
+  background: #044947;
+  border-radius: 5px;
+  color: #b4d0cd;
+  font-weight: 300px;
+  font-size: 16px;
+}
+
+.btn-logins {
+  width: 131px;
+  background: #ff7751;
+  border-radius: 5px;
+  color: white;
+  font-weight: 300px;
+  font-size: 16px;
+}
+
+.jumbotron {
+  background-color: #023933;
+  padding-top: 2rem;
+  color: #ffff;
+}
+
+.gelombang {
+  margin-bottom: -1rem;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.btn-header {
+  width: 200px;
+  background: #ff7751;
+  border-radius: 5px;
+  color: white;
+  font-weight: 300px;
+  font-size: 16px;
+}
+
+@media (max-width: 750px) {
+  .header-banner {
+    margin-top: 25px;
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .section-header {
+    color: #b4d0cd;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .popular-1,
+  .popular-2 {
+    margin-top: 30px;
+  }
+  .ciptakan-karya h2 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .ciptakan-karya p {
+    font-size: 12px;
+    color: #a5a5a5;
+    font-weight: 300;
+    padding-top: 15px;
+  }
+  .btn-karya {
+    width: 200px;
+    height: auto;
+    margin-top: 15px;
+    background-color: #ff7751;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .sub-text {
+    font-size: 12px;
+    font-weight: 300;
+    color: #a5a5a5;
+  }
+  .kelas-1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  .kelas-2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  .kelas-3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  .bergabung {
+    height: 280px;
+  }
+
+  .bergabung h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0a2e09;
+    padding-top: 15px;
+  }
+}
+/*  Kelas Popular */
+@media (min-width: 750px) {
+  .header-banner {
+    margin-top: 25px;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .section-header {
+    color: #b4d0cd;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .ciptakan-karya h2 {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .ciptakan-karya p {
+    font-size: 14px;
+    color: #a5a5a5;
+    font-weight: 300;
+    padding-top: 15px;
+  }
+  .btn-karya {
+    width: 200px;
+    height: auto;
+    margin-top: 25px;
+    background-color: #ff7751;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: -150px;
+  }
+  .sub-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: #a5a5a5;
+  }
+  .kelas-1 {
+    margin-top: 30px;
+  }
+  .kelas-2 {
+    margin-top: 0px;
+  }
+  .kelas-3 {
+    margin-top: 0px;
+  }
+  .kelas-populars {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .bergabung {
+    height: 320px;
+  }
+
+  .bergabung h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #0a2e09;
+    padding-top: 15px;
+  }
+}
+
+/* kategori pupular */
+
+.header-kategori h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.graphic {
+  width: 165px;
+  height: 165px;
+  align-items: center;
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-text {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* ciptakan karya */
+.ciptakan-karya,
+.kelas-popular,
+.bergabung,
+.benefit-belajar,
+.review,
+.tools-belajar {
+  margin-top: 100px;
+}
+
+/* Kelas Popular */
+
+.kelas-popular h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.kelas-popular p,
+.review p,
+.tools-belajar p {
+  color: #a5a5a5;
+  font-size: 14px;
+}
+
+.btn-pemula {
+  margin-top: -35px;
+  border: #f4f4f4;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.nama-kelas h6 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.harga button {
+  width: 114px;
+  background: #109f8f;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.img-play {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.img-bintang {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: -30px;
+  margin-right: 110px;
+}
+
+.img-diskusi {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: -30px;
+}
+
+.nama-mentor {
+  margin-left: 30px;
+}
+
+.btn-explore {
+  color: #c4c4c4;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* Benefits belajar */
+
+.benefit-belajar h2 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.benefit-belajar p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* bergabung */
+
+.btn-bergabung {
+  background-color: #ff7751;
+  color: #f4f4f4;
+  width: 230px;
+}
+
+/* Review member */
+.carousel-indicators {
+  bottom: -50px;
+}
+
+/* footer */
+.footer-al {
+  margin-top: 150px;
+}
+
+.footer-al a {
+  color: #a5a5a5;
+  font-weight: 300;
+}
