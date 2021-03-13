@@ -1,6 +1,8 @@
 body {
   font-family: 'poppins';
 }
+
+/*  custom color */
 h5,
 h2,
 h3,
@@ -8,6 +10,57 @@ h6 {
   color: #0a2e09;
 }
 
+/* hedaer - text h1 */
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+/* text heeader h2  */
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+/* text-header h3 */
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* text subtitle  */
+p {
+  font-weight: 300;
+  color: #a5a5a5;
+  font-size: 14px;
+}
+
+/* padding top section */
+.popular-category {
+  margin-top: 25px;
+}
+.motivation,
+.popular-class,
+.benefits,
+.lets-join,
+.review,
+.tools,
+.footer {
+  margin-top: 115px;
+}
+
+/* custom button large */
+.btn-header,
+.btn-lg {
+  width: 200px;
+  background: #ff7751;
+  border-radius: 5px;
+  color: white;
+  font-weight: 300px;
+  font-size: 16px;
+}
+
+/* Navbar header */
 .navbar-brand img {
   max-height: 40px;
 }
@@ -30,12 +83,11 @@ h6 {
   width: 131px;
   background: #044947;
   border-radius: 5px;
-  color: #b4d0cd;
+  color: white;
   font-weight: 300px;
   font-size: 16px;
 }
-
-.btn-logins {
+.btn-signUp {
   width: 131px;
   background: #ff7751;
   border-radius: 5px;
@@ -43,181 +95,22 @@ h6 {
   font-weight: 300px;
   font-size: 16px;
 }
+/* end navbar  */
 
-/* Jumbotron */
-
+/* Header Jumbotron */
 .jumbotron {
   background-color: #023933;
   padding-top: 2rem;
   color: #ffff;
 }
 
-.gelombang {
+.img-interval {
   margin-bottom: -1rem;
 }
 
-.header {
-  font-weight: 700;
-  font-size: 48px;
-}
+/* Popular-category */
 
-.btn-header {
-  width: 200px;
-  background: #ff7751;
-  border-radius: 5px;
-  color: white;
-  font-weight: 300px;
-  font-size: 16px;
-}
-
-/*  Kelas Popular */
-.card:hover {
-  box-shadow: 0 0 35px rgba(33, 33, 33, 0.2);
-  transition: 0.5s;
-}
-
-@media (max-width: 750px) {
-  .header-banner {
-    margin-top: 25px;
-    font-size: 32px;
-    font-weight: 500;
-  }
-
-  .section-header {
-    color: #b4d0cd;
-    font-size: 12px;
-    font-weight: 300;
-  }
-  .popular-1,
-  .popular-2 {
-    margin-top: 30px;
-  }
-  .ciptakan-karya h2 {
-    font-size: 28px;
-    font-weight: 700;
-    text-align: center;
-  }
-  .ciptakan-karya p {
-    font-size: 12px;
-    color: #a5a5a5;
-    font-weight: 300;
-    padding-top: 15px;
-  }
-  .btn-karya {
-    width: 200px;
-    height: auto;
-    margin-top: 15px;
-    background-color: #ff7751;
-    color: #fff;
-    border-radius: 5px;
-  }
-  .sub-text {
-    font-size: 12px;
-    font-weight: 300;
-    color: #a5a5a5;
-  }
-  .kelas-1 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-  }
-  .kelas-2 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-  }
-  .kelas-3 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-  }
-  .bergabung {
-    height: 280px;
-  }
-
-  .bergabung h2 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #0a2e09;
-    padding-top: 15px;
-  }
-  .carousel-h5 {
-    font-size: 18px;
-  }
-}
-/*  Kelas Popular */
-@media (min-width: 750px) {
-  .header-banner {
-    margin-top: 25px;
-    font-size: 48px;
-    font-weight: 700;
-  }
-
-  .section-header {
-    color: #b4d0cd;
-    font-size: 18px;
-    font-weight: 300;
-  }
-  .ciptakan-karya h2 {
-    font-size: 48px;
-    font-weight: 700;
-  }
-  .ciptakan-karya p {
-    font-size: 14px;
-    color: #a5a5a5;
-    font-weight: 300;
-    padding-top: 15px;
-  }
-  .btn-karya {
-    width: 200px;
-    height: auto;
-    margin-top: 25px;
-    background-color: #ff7751;
-    color: #fff;
-    border-radius: 5px;
-    margin-top: -150px;
-  }
-  .sub-text {
-    font-size: 14px;
-    font-weight: 300;
-    color: #a5a5a5;
-  }
-  .kelas-1 {
-    margin-top: 30px;
-  }
-  .kelas-2 {
-    margin-top: 0px;
-  }
-  .kelas-3 {
-    margin-top: 0px;
-  }
-  .kelas-populars {
-    margin-left: 25px;
-    margin-right: 25px;
-  }
-  .bergabung {
-    height: 320px;
-  }
-
-  .bergabung h2 {
-    font-size: 38px;
-    font-weight: 700;
-    color: #0a2e09;
-    padding-top: 15px;
-  }
-  .carousel-h5 {
-    font-size: 24px;
-  }
-}
-
-/* kategori pupular */
-
-.header-kategori h3 {
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.graphic {
+.card-category {
   width: 165px;
   height: 165px;
   align-items: center;
@@ -226,35 +119,70 @@ h6 {
   margin-right: auto;
 }
 
-.card-text {
+.subtitle-category {
   font-size: 14px;
   font-weight: 300;
 }
 
-/* ciptakan karya */
-.ciptakan-karya,
-.kelas-popular,
-.bergabung,
-.benefit-belajar,
-.review,
-.tools-belajar {
-  margin-top: 100px;
+/*  effect shadow Card Class */
+.card:hover {
+  box-shadow: 0 0 35px rgba(33, 33, 33, 0.2);
+  transition: 0.5s;
 }
 
-/* Kelas Popular */
+/* Mobile Device */
+@media (max-width: 750px) {
+  .header-title {
+    margin-top: 25px;
+    font-size: 32px;
+    font-weight: 600;
+  }
 
-.kelas-popular h3 {
-  font-size: 24px;
-  font-weight: 500;
+  .subtitle-header {
+    color: #b4d0cd;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .motivation h2 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .benefits h2 {
+    font-size: 38px;
+    font-weight: 700;
+  }
+
+  .lets-join h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .carousel-h5 {
+    font-size: 18px;
+  }
 }
 
-.kelas-popular p,
-.review p,
-.tools-belajar p {
-  color: #a5a5a5;
-  font-size: 14px;
+/* Desktop Device */
+@media (min-width: 750px) {
+  .header-banner {
+    margin-top: 25px;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .subtitle-header {
+    color: #b4d0cd;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .carousel-h5 {
+    font-size: 24px;
+  }
 }
 
+/* card kelas popular */
 .btn-pemula {
   margin-top: -35px;
   border: #f4f4f4;
@@ -302,43 +230,21 @@ h6 {
   font-weight: 300;
 }
 
-/* Benefits belajar */
-
-.benefit-belajar h2 {
-  font-size: 38px;
-  font-weight: 700;
-  margin-top: 60px;
-}
-
-.benefit-belajar p {
-  font-size: 14px;
-  font-weight: 300;
-}
-
-/* bergabung */
-
-.btn-bergabung {
-  background-color: #ff7751;
-  color: #f4f4f4;
-  width: 230px;
-}
-
 /* Review member */
 .carousel-indicators {
   bottom: -50px;
 }
 
 /* footer */
-.footer-al {
+.footer {
   margin-top: 150px;
 }
 
-.footer-al a {
+.footer a {
   color: #a5a5a5;
   font-weight: 300;
 }
 
-.footer-copyright {
-  color: #a5a5a5;
-  font-weight: 300;
+.footer a:hover {
+  color: #ff7751;
 }

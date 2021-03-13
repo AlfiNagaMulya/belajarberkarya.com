@@ -1,596 +1,575 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>BelajarBerkarya</title>
-    <!-- google font -->
-    <link href="https://fonts.gstatic.com" rel="preconnect"/>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-          rel="stylesheet"/>
-    <!-- Css -->
-    <link href="asset/Boostrap/css/bootstrap.css" rel="stylesheet"/>
-    <link href="asset/Boostrap/css/aos.css" rel="stylesheet">
-    <link href="asset/styles/main.css" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<body>
-<!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-        <a class="navbar-brand" href="#"> <img alt="" src="asset/images%20/Logo A`L Creative Design std.svg"/></a>
-        <button aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-                class="navbar-toggler"
-                data-bs-target="#navbarNavDropdown"
-                data-bs-toggle="collapse"
-                type="button">
-            <span class="navbar-toggler-icon"></span>
+    <title>BelajarBerkarya</title>
+
+    <!-- google font -->
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <!-- Css -->
+    <link href="asset/Boostrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="asset/styles/main.css" rel="stylesheet" />
+
+    <!-- Animation AOS -->
+    <link href="asset/Boostrap/css/aos.css" rel="stylesheet" />
+  </head>
+
+  <!--Navbar-->
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <img alt="" src="asset/images%20/Logo A`L Creative Design std.svg" /></a>
+        <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNavDropdown" data-bs-toggle="collapse" type="button">
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto my-2">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Kelas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Biaya</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
-                       role="button"> Benefit</a>
-                    <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">UI Kits Free</a></li>
-                        <li><a class="dropdown-item" href="#">Tips & Trick Design</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
-                       role="button"> Belajar </a>
-                    <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Showcase</a></li>
-                        <li><a class="dropdown-item" href="#">Review</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <!-- Mobile button -->
-            <form class="form mx-lg-3 mt-3 mt-md-0 mb-3 mb-md-0">
-                <button class="btn btn-login">Masuk</button>
-            </form>
-            <!-- deskstop button -->
-            <form class="form">
-                <button class="btn btn-logins">Daftar</button>
-            </form>
+          <ul class="navbar-nav ms-auto my-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kelas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Biaya</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"> Benefit</a>
+              <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">UI Kits Free</a></li>
+                <li><a class="dropdown-item" href="#">Tips & Trick Design</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"> Belajar </a>
+              <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Showcase</a></li>
+                <li><a class="dropdown-item" href="#">Review</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- Mobile button -->
+          <form class="form mx-lg-3 mt-3 mt-md-0 mb-3 mb-md-0">
+            <button class="btn btn-login">Masuk</button>
+          </form>
+          <!-- deskstop button -->
+          <form class="form">
+            <button class="btn btn-signUp">Daftar</button>
+          </form>
         </div>
-    </div>
-</nav>
-<!-- End Navbar -->
+      </div>
+    </nav>
+    <!-- End Navbar -->
 
-<!-- Header-->
-<header class="jumbotron text-center">
-    <h1 class="header-banner ">
-        Belajar Design & Full Stack Web Designer<br>
+    <!-- Header-->
+    <header class="jumbotron text-center">
+      <h1 class="header-title">
+        Belajar Design & Full Stack Web Designer<br />
         Untuk Masa Depan Career Kamu
-    </h1>
-    <p class="mt-3 section-header">
+      </h1>
+      <p class="mt-3 subtitle-header">
         yuk, pelajari ilmu baru dibidang Design dan Development
-        <br/>
+        <br />
         Ciptakan karya untuk portofolio/project kalian.
-    </p>
-    <a class="btn btn-header mt-3" data-aos="fade-up" data-aos-duration="2000" href="#" role="button">Kelas
-        Gratis </a>
-    <svg class="gelombang" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0,96L48,122.7C96,149,192,203,288,202.7C384,203,480,149,576,154.7C672,160,768,224,864,224C960,224,1056,160,1152,138.7C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-              fill="#ffff" fill-opacity="1"></path>
-    </svg>
-</header>
-<!-- End Header -->
+      </p>
+      <a class="btn btn-lg mt-3" data-aos="fade-up" data-aos-duration="2000" href="#" role="button">Kelas Gratis </a>
+      <svg class="img-interval" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0,96L48,122.7C96,149,192,203,288,202.7C384,203,480,149,576,154.7C672,160,768,224,864,224C960,224,1056,160,1152,138.7C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          fill="#ffff"
+          fill-opacity="1"
+        ></path>
+      </svg>
+    </header>
+    <!-- End Header -->
 
-<!--Body-->
-<div class="container">
-    <section id="Popular-Category">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h3> Kategori Popular</h3>
-                <p class="sub-text">
-                    kelas yang paling banyak diminati
-                    oleh para designer & front End Web Designer.
-                </p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md-2">
-                <div class="card graphic" data-aos="fade-right" data-aos-duration="2000">
-                    <img alt="..." src="asset/images%20/graphic designer.svg">
-                    <div class="card-body text-center ">
-                        <p class="card-text"> Graphic Designer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="card graphic" data-aos="fade-up" data-aos-duration="2000">
-                    <img alt="..." src="asset/images%20/ui ux.svg ">
-                    <div class="card-body">
-                        <p class="card-text"> UI & UX Design </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2" data-aos="fade-left" data-aos-duration="2000">
-                <div class="card graphic">
-                    <img alt="..." height="100px" src="asset/images%20/development.svg ">
-                    <p class="card-text "> Web Designer </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="Motivation">
-        <div class="row mt-5 my-5">
-            <div class="col-md-6 align-self-center">
-                <div class="text-center text-md-start">
-                    <h2 data-aos="fade-up" data-aos-duration="1000">
-                        Ciptakan Hasil Karya,<br>
-                        Explorasikan Karya-mu
-                    </h2>
-                    <p>
-                        Saatnya,ber-explorasi menciptakan hasil karya untuk <br>
-                        dijadikan sebagai bahan Portofolio mapun project kamu.
-                    </p>
-                    <div class="py-5 mt-5" data-aos="zoom-out-left" data-aos-duration="1000">
-                        <button class="btn btn-karya ">Karya Member</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
-                <img alt="..." src="asset/images%20/karya.svg">
-            </div>
-        </div>
-    </section>
-    <section id="Popular-Class">
-        <div class="row mt-5">
-            <div class="col-12 text-center ">
-                <h3>
-                    Kelas Popular
-                </h3>
-                <p>
-                    Beberapa kategori kelas yang paling banyak diminati
-                    oleh para designer & Front end Development Handal.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4" data-aos="fade-up" data-aos-duration="2000">
-                <div class="card" style="width: 23rem;">
-                    <div class="card-body ">
-                        <img alt="..." class="card-img-top" src="asset/images%20/feature gambar.svg">
-                        <div class=" mt-3">
-                            <p class="card-title "> Kelas : UI UX Designer</p>
-                            <button class="btn btn-pemula float-end btn-light disabled "> pemula</button>
-                        </div>
-                        <div class="nama-kelas">
-                            <hr>
-                            <h6>
-                                Web Design Travel Agency
-                            </h6>
-                        </div>
-                        <div class="harga mt-2 mb-4">
-                            <h6 class="card-title ">
-                                Rp. <span style="font-size: 24px;"> 0 </span>
-                            </h6>
-                            <button class="btn btn-pemula float-end disabled "> Gratiss</button>
-                        </div>
-                        <hr>
-                        <div class=" img-play">
-                            <section class="img-fluid"><img alt="" src="asset/images%20/bintang.svg"> 75
-                                Videos
-                            </section>
-                        </div>
-                        <div class=" img-bintang float-end ">
-                            <section class="img-fluid"><img alt="" src="asset/images%20/Group 148.svg">
-                                Awards
-                            </section>
-                        </div>
-                        <div class=" img-diskusi float-end ">
-                            <section class="img-fluid"><img alt="" src="asset/images%20/Group 148.svg">
-                                Diskusi
-                            </section>
-                        </div>
-                        <hr>
-                        <div class="col-2 float-start justify-content-lg-between">
-                            <img alt="..." src="asset/images%20/img-foto.svg">
-                        </div>
-                        <div class="col-12 ">
-                            <h6 class="m-0">Alfi Naga Mulya</h6>
-                            <p class="m-1" style="color:#c4c4c4;">Mentor - UI UX Designer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 kelas-2" data-aos="fade-up" data-aos-duration="2000">
-                <div class="card" style="width: 23rem;">
-                    <div class="card-body ">
-                        <img alt="..." class="card-img-top" src="asset/images%20/logo design'.svg">
-                        <div class=" mt-3">
-                            <p class="card-title "> Kelas : Graphic Designer</p>
-                            <button class="btn btn-pemula float-end btn-light disabled "> pemula</button>
-                        </div>
-                        <div class="nama-kelas">
-                            <hr>
-                            <h6>
-                                Basic Menjadi Logo design
-                            </h6>
-                        </div>
-                        <div class="harga mt-2 mb-4">
-                            <h6 class="card-title ">
-                                Rp. <span style="font-size: 24px;"> 0 </span>
-                            </h6>
-                            <button class="btn btn-pemula float-end disabled "> Gratiss</button>
-                        </div>
-                        <hr>
-                        <div class=" img-play">
-                            <section class="img-fluid"><img alt="" src="asset/images%20/bintang.svg"> 75
-                                Videos
-                            </section>
-                        </div>
-                        <div class=" img-bintang float-end ">
-                            <section class="img-fluid"><img alt="" src="asset/images%20/Group 148.svg">
-                                Awards
-                            </section>
-                        </div>
-                        <div class=" img-diskusi float-end ">
-                            <section class="img-fluid"><img alt="" src="asset/images%20/Group 148.svg">
-                                Diskusi
-                            </section>
-                        </div>
-                        <hr>
-                        <div class="col-2 float-start justify-content-lg-between">
-                            <img alt="..." src="asset/images%20/img-foto.svg">
-                        </div>
-                        <div class="col-12 ">
-                            <h6 class="m-0">Alfi Naga Mulya</h6>
-                            <p class="m-1" style="color:#c4c4c4;">Mentor - UI UX Designer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 kelas-3" data-aos="fade-up" data-aos-duration="2000">
-                <div class="card" style="width: 23rem;">
-                    <div class="card-body ">
-                        <img alt="..." class="card-img-top" src="asset/images%20/ui mobile apps.svg">
-                        <div class=" mt-3">
-                            <p class="card-title "> Kelas : UI UX Designer</p>
-                            <button class="btn btn-pemula float-end btn-light disabled "> pemula</button>
-                        </div>
-                        <div class="nama-kelas">
-                            <hr>
-                            <h6>
-                                UI Design Mobile Apps
-                            </h6>
-                        </div>
-                        <div class="harga mt-2 mb-4">
-                            <h6 class="card-title ">
-                                Rp. <span style="font-size: 24px;"> 0 </span>
-                            </h6>
-                            <button class="btn btn-pemula float-end disabled "> Gratiss</button>
-                        </div>
-                        <hr>
-                        <div class=" img-play">
-                            <section class="img-fluid"><img alt="" src="asset/images%20/bintang.svg"> 75
-                                Videos
-                            </section>
-                        </div>
-                        <div class=" img-bintang float-end ">
-                            <section class="img-fluid"><img alt="" src="asset/images%20/Group 148.svg">
-                                Awards
-                            </section>
-                        </div>
-                        <div class=" img-diskusi float-end ">
-                            <section class="img-fluid"><img alt="" src="asset/images%20/Group 148.svg">
-                                Diskusi
-                            </section>
-                        </div>
-                        <hr>
-                        <div class="col-2 float-start justify-content-lg-between">
-                            <img alt="..." src="asset/images%20/img-foto.svg">
-                        </div>
-                        <div class="col-12 ">
-                            <h6 class="m-0">Alfi Naga Mulya</h6>
-                            <p class="m-1" style="color:#c4c4c4;">Mentor - UI UX Designer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-3">
-            <div class="col-md-12">
-                <center>
-                    <button class="btn btn-primary" data-aos="zoom-out-left" data-aos-duration="1000">Explore Semua Kelas</button>
-                </center>
-            </div>
-        </div>
-    </section>
-    <section id="Benefits">
-        <div class="row mt-5">
-            <div class="col-12 col-md-4 col-lg-4 text-center text-md-start  mb-4" data-aos="fade-right"
-                 data-aos-duration="1000">
-                <h2 class="">Benefits Belajar <br> Bersama Kami ?</h2>
-                <p class="mt-3 " style="color: #a5a5a5 ;">
-                    Kami telah menyediakan banyak benefits & Bonus <br> yang akan kamu dapatkan setelah <br>
-                    mengikuti kelas kami.
-                </p>
-            </div>
-            <div class="col-12 col-md-8 col-lg-8 text-center text-md-start  mb-4">
-                <div class="row justify-content-lg-center">
-                    <div class="col-3 col-md-3 text-center " data-aos="fade-up" data-aos-duration="1000">
-                        <img alt="" src="asset/images%20/icon grup diskusi.svg">
-                        <p class="mt-2">
-                            Grup <br>
-                            Diskusi Lifetime
-                        </p>
-                    </div>
-                    <div class="col-3 col-md-3 text-center " data-aos="fade-up" data-aos-duration="1000">
-                        <img alt="" src="asset/images%20/icon akses selamanya.svg">
-                        <p class="mt-2">
-                            Akses <br>
-                            Kelas Lifetime
-                        </p>
-                    </div>
-                    <div class="col-3 col-md-3 text-center " data-aos="fade-up" data-aos-duration="1000">
-                        <img alt="" src="asset/images%20/icon-up to date.svg">
-                        <p class="mt-2">
-                            Materi <br>
-                            Up-To-Date
-                        </p>
-                    </div>
-                    <div class="col-3 col-md-3 text-center " data-aos="fade-up" data-aos-duration="1000">
-                        <img alt="" src="asset/images%20/icon project.svg">
-                        <p class="mt-2">
-                            Project <br>
-                            Untuk Portofolio
-                        </p>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-3 col-md-3  text-center" data-aos="fade-up" data-aos-duration="2000">
-                        <img alt="" src="asset/images%20/icon sertifikat.svg">
-                        <p class="mt-2">
-                            Sertifikat <br>
-                            Kelulusan Kelas
-                        </p>
-                    </div>
-                    <div class="col-3 col-md-3  text-center " data-aos="fade-up" data-aos-duration="2000">
-                        <img alt="" src="asset/images%20/icon dowload offline.svg">
-                        <p class="mt-2">
-                            Dowload <br>
-                            Project Offline
-                        </p>
-                    </div>
-                    <div class="col-3 col-md-3  text-center " data-aos="fade-up" data-aos-duration="2000">
-                        <img alt="" src="asset/images%20/icon t-shirt.svg">
-                        <p class="mt-2">
-                            T-Shirt / Stiker <br>
-                            Eksklusif BB
-                        </p>
-                    </div>
-                    <div class="col-3 col-md-3  text-center " data-aos="fade-up" data-aos-duration="2000">
-                        <img alt="" src="asset/images%20/icon pahala.svg">
-                        <p class="mt-2">
-                            Share Happiness<br>
-                            25% Sedekah
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="Lets-join">
-        <div class="row text-center pt-5">
-            <div class="col-12 pb-4 ">
-                <img alt="" src="asset/images%20/img-nisa.svg ">
-                <h2>
-                    “ Mari bergabung bersama lainnya, <br>
-                    menciptakan karya luar biasa “
-                </h2>
-                <div class="col-12  text-center pt-4" data-aos="fade-up" data-aos-duration="2000">
-                    <button class="btn btn-bergabung ">Gabung Kelas Free</button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="Review">
-        <div class="row text-center pt-5">
-            <div class="col-12 mb-5">
-                <h3>
-                    Review Para Member
-                </h3>
-                <p>
-                    Review dari semua member setelah mengikuti kelas kami.
-                </p>
-
-                <div class="carousel carousel-dark slide mt-5" data-bs-ride="carousel" id="carouselExampleDark">
-                    <div class="carousel-indicators">
-                        <button aria-current="true" aria-label="Slide 1" class="active"
-                                data-bs-slide-to="0" data-bs-target="#carouselExampleDark" type="button"></button>
-                        <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleDark"
-                                type="button"></button>
-                        <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleDark"
-                                type="button"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="10000">
-                            <img alt="..." class="img-fluid" src="asset/images%20/foto nisa review.svg">
-                            <div class="carousel pt-4">
-                                <img alt="" src="asset/images%20/bintang review.svg">
-                                <h5 class="pt-3 carousel-h5 "> Semenjak saya ikut kelas UI UX Design di Belajar
-                                    Berkarya <br>
-                                    saya jadi lebih berani untuk explorasi design hhe. </h5>
-                                <h5 class="pt-3">
-                                    Anisa Novianti Gunawan
-                                </h5>
-                                <p>
-                                    UI UX Designer - Lulusan Kelas UI UX Designer
-                                </p>
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img alt="..." class="img-fluid" src="asset/images%20/foto nisa review.svg">
-                            <div class="carousel pt-3">
-                                <img alt="" src="asset/images%20/bintang review.svg">
-                                <h5 class="pt-3 carousel-h5"> Semenjak saya ikut kelas UI UX Design di Belajar
-                                    Berkarya <br>
-                                    saya jadi lebih berani untuk explorasi design hhe. </h5>
-                                <h5 class="pt-3">
-                                    Anisa Novianti Gunawan
-                                </h5>
-                                <p>
-                                    UI UX Designer - Lulusan Kelas UI UX Designer
-                                </p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img alt="..." class="img-fluid" src="asset/images%20/foto nisa review.svg">
-                            <div class="pt-3">
-                                <img alt="" src="asset/images%20/bintang review.svg">
-                                <h5 class="carousel-h5  pt-3 "> Semenjak saya ikut kelas UI UX Design di Belajar
-                                    Berkarya <br>
-                                    saya jadi lebih berani untuk explorasi design hhe.</h5>
-                                <h5 class="pt-3">
-                                    Anisa Novianti Gunawan
-                                </h5>
-                                <p>
-                                    UI UX Designer - Lulusan Kelas UI UX Designer
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleDark"
-                            type="button">
-                        <span aria-hidden="true" class="carousel-control-prev"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleDark"
-                            type="button">
-                        <span aria-hidden="true" class="carousel-control-next"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <section id="Tools">
-        <div class="row pt-5">
-            <div class="col text-center ">
-                <h3>
-                    Tools Belajar
-                </h3>
-                <p>
-                    Beberapa Tools sering dipakai oleh para designer & Developer handal
-                </p>
-
-                <div class="row pt-5  justify-content-center m-lg-4  ">
-                    <div class="col-4 col-md-2">
-                        <img alt="" data-aos="fade-up" data-aos-duration="2000"
-                             src="asset/images%20/ai.svg">
-                    </div>
-                    <div class="col-4 col-md-2">
-                        <img alt="" data-aos="fade-up" data-aos-duration="2000"
-                             src="asset/images%20/photoshop.svg">
-                    </div>
-                    <div class="col-4 col-md-2">
-                        <img alt="" data-aos="fade-up" data-aos-duration="2000"
-                             src="asset/images%20/adobe xd.svg">
-                    </div>
-                    <div class="col-4  pt-4 pt-md-0 col-md-2">
-                        <img alt="" data-aos="fade-up" data-aos-duration="2000"
-                             src="asset/images%20/figma.svg">
-                    </div>
-                    <div class="col-4 pt-4 pt-md-0 col-md-2">
-                        <img alt="" data-aos="fade-up" data-aos-duration="2000"
-                             src="asset/images%20/vs code.svg">
-                    </div>
-                    <div class="col-4  pt-4 pt-md-0 col-md-2">
-                        <img alt="" data-aos="fade-up" data-aos-duration="2000"
-                             src="asset/images%20/talwind.svg">
-                        <br>
-                    </div>
-                    <div class="col-4 pt-4 pt-md-0  col-md-2 pt-lg-5">
-                        <img alt="" data-aos="fade-up" data-aos-duration="2000"
-                             src="asset/images%20/js.svg">
-                    </div>
-                    <div class="col-4  pt-4 pt-md-0 col-md-2 pt-lg-5" data-aos="fade-up" data-aos-duration="2000">
-                        <img alt="" data-aos="fade-up" data-aos-duration="2000"
-                             src="asset/images%20/react.svg">
-                    </div>
-                    <div class="col-4  pt-4 pt-md-0  col-md-2 pt-lg-5" data-aos="fade-up" data-aos-duration="2000">
-                        <img alt="" data-aos="fade-up" data-aos-duration="2000"
-                             src="asset/images%20/circle etc.svg">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-<!--End Body-->
-
-<!--footer-->
-<footer class="footer-al border-top ">
+    <!--Body-->
     <div class="container">
+      <section class="popular-category" id="Popular-Category">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h3>Kategori Popular</h3>
+            <p>kelas yang paling banyak diminati oleh para designer & front End Web Designer.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-2">
+            <div class="card card-category" data-aos="fade-right" data-aos-duration="2000">
+              <img alt="..." src="asset/images%20/graphic designer.svg" />
+              <div class="card-body text-center">
+                <p class="subtitle-category">Graphic Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card card-category" data-aos="fade-up" data-aos-duration="2000">
+              <img alt="..." src="asset/images%20/ui ux.svg " />
+              <div class="card-body">
+                <p class="subtitle-category">UI & UX Design</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2" data-aos="fade-left" data-aos-duration="2000">
+            <div class="card card-category">
+              <img alt="..." height="100px" src="asset/images%20/development.svg " />
+              <p class="subtitle-category">Web Designer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Motivation -->
+      <section class="motivation" id="Motivation">
+        <div class="row mt-5 my-5">
+          <div class="col-md-6 align-self-md-center">
+            <div class="text-center text-md-start" data-aos="fade-up" data-aos-duration="1000">
+              <h2>
+                Ciptakan Hasil Karya,<br />
+                Explorasikan Karya-mu
+              </h2>
+              <p class="pt-2">
+                Saatnya,ber-explorasi menciptakan hasil karya untuk <br />
+                dijadikan sebagai bahan Portofolio mapun project kamu.
+              </p>
+              <div class="col text-center text-md-start pt-4" data-aos="zoom-out-left" data-aos-duration="1000">
+                <button class="btn btn-lg">Karya Member</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-none d-md-block mx-auto" data-aos="fade-up" data-aos-duration="1000">
+            <img alt="..." src="asset/images%20/karya.svg" />
+          </div>
+        </div>
+      </section>
+      <!-- end Motivation -->
+
+      <!-- Class Popular -->
+      <section class="popular-class" id="Popular-Class">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h3>Kelas Popular</h3>
+            <p>
+              Beberapa kategori kelas yang paling banyak <br />
+              diminati oleh para designer & Front end Development Handal.
+            </p>
+          </div>
+        </div>
+        <div class="row mb-5 mt-4 m-lg-5">
+          <div class="col-md-4 card-class-popular" data-aos="fade-up" data-aos-duration="2000">
+            <div class="card" style="width: 23rem">
+              <div class="card-body">
+                <img alt="..." class="card-img-top" src="asset/images%20/feature gambar.svg" />
+                <div class="mt-3">
+                  <p class="card-title">Kelas : UI UX Designer</p>
+                  <button class="btn btn-pemula float-end btn-light disabled">pemula</button>
+                </div>
+                <div class="nama-kelas">
+                  <hr />
+                  <h6>Web Design Travel Agency</h6>
+                  <hr />
+                </div>
+                <div class="harga mt-2 mb-4">
+                  <h6 class="card-title">Rp. <span style="font-size: 24px"> 0 </span></h6>
+                  <button class="btn btn-pemula float-end disabled">Gratiss</button>
+                </div>
+                <hr />
+                <div class="img-play">
+                  <section class="img-fluid"><img alt="" src="asset/images%20/bintang.svg" /> 75 Videos</section>
+                </div>
+                <div class="img-bintang float-end">
+                  <section class="img-fluid">
+                    <img alt="" src="asset/images%20/Group 148.svg" />
+                    Awards
+                  </section>
+                </div>
+                <div class="img-diskusi float-end">
+                  <section class="img-fluid">
+                    <img alt="" src="asset/images%20/Group 148.svg" />
+                    Diskusi
+                  </section>
+                </div>
+                <hr />
+                <div class="col-2 float-start justify-content-lg-between">
+                  <img alt="..." src="asset/images%20/img-foto.svg" />
+                </div>
+                <div class="col-12">
+                  <h6 class="m-0">Alfi Naga Mulya</h6>
+                  <p class="m-1" style="color: #c4c4c4">Mentor - UI UX Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 card-class-popular" data-aos="fade-up" data-aos-duration="2000">
+            <div class="card" style="width: 23rem">
+              <div class="card-body">
+                <img alt="..." class="card-img-top" src="asset/images%20/logo design'.svg" />
+                <div class="mt-3">
+                  <p class="card-title">Kelas : Graphic Designer</p>
+                  <button class="btn btn-pemula float-end btn-light disabled">pemula</button>
+                </div>
+                <div class="nama-kelas">
+                  <hr />
+                  <h6>Basic Menjadi Logo design</h6>
+                  <hr />
+                </div>
+                <div class="harga mt-2 mb-4">
+                  <h6 class="card-title">Rp. <span style="font-size: 24px"> 0 </span></h6>
+                  <button class="btn btn-pemula float-end disabled">Gratiss</button>
+                </div>
+                <hr />
+                <div class="img-play">
+                  <section class="img-fluid"><img alt="" src="asset/images%20/bintang.svg" /> 75 Videos</section>
+                </div>
+                <div class="img-bintang float-end">
+                  <section class="img-fluid">
+                    <img alt="" src="asset/images%20/Group 148.svg" />
+                    Awards
+                  </section>
+                </div>
+                <div class="img-diskusi float-end">
+                  <section class="img-fluid">
+                    <img alt="" src="asset/images%20/Group 148.svg" />
+                    Diskusi
+                  </section>
+                </div>
+                <hr />
+                <div class="col-2 float-start justify-content-lg-between">
+                  <img alt="..." src="asset/images%20/img-foto.svg" />
+                </div>
+                <div class="col-12">
+                  <h6 class="m-0">Alfi Naga Mulya</h6>
+                  <p class="m-1" style="color: #c4c4c4">Mentor - UI UX Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 card-class-popular" data-aos="fade-up" data-aos-duration="2000">
+            <div class="card" style="width: 23rem">
+              <div class="card-body">
+                <img alt="..." class="card-img-top" src="asset/images%20/ui mobile apps.svg" />
+                <div class="mt-3">
+                  <p class="card-title">Kelas : UI UX Designer</p>
+                  <button class="btn btn-pemula float-end btn-light disabled">pemula</button>
+                </div>
+                <div class="nama-kelas">
+                  <hr />
+                  <h6>UI Design Mobile Apps</h6>
+                  <hr />
+                </div>
+                <div class="harga mt-2 mb-4">
+                  <h6 class="card-title">Rp. <span style="font-size: 24px"> 0 </span></h6>
+                  <button class="btn btn-pemula float-end disabled">Gratiss</button>
+                </div>
+                <hr />
+                <div class="img-play">
+                  <section class="img-fluid"><img alt="" src="asset/images%20/bintang.svg" /> 75 Videos</section>
+                </div>
+                <div class="img-bintang float-end">
+                  <section class="img-fluid">
+                    <img alt="" src="asset/images%20/Group 148.svg" />
+                    Awards
+                  </section>
+                </div>
+                <div class="img-diskusi float-end">
+                  <section class="img-fluid">
+                    <img alt="" src="asset/images%20/Group 148.svg" />
+                    Diskusi
+                  </section>
+                </div>
+                <hr />
+                <div class="col-2 float-start justify-content-lg-between">
+                  <img alt="..." src="asset/images%20/img-foto.svg" />
+                </div>
+                <div class="col-12">
+                  <h6 class="m-0">Alfi Naga Mulya</h6>
+                  <p class="m-1" style="color: #c4c4c4">Mentor - UI UX Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row explore-kelas text-center mt-5">
+          <div class="col">
+            <button class="btn btn-explore btn-light" style=" font size : 12px ">Explore Semua Kelas</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- end Class Popular -->
+
+      <!-- Benefits -->
+      <section class="benefits" id="Benefits">
         <div class="row mt-5">
-            <div class="col-12 col-md-3 mt-3 text-center text-md-start mb-5 ">
-                <img alt="" src="asset/images%20/logo A`l.svg" width="60">
-                <h6 class=" pt-3 ">Belajar Berkarya <br>
-                    Ciptakan Karya Luar Biasa </h6>
+          <div class="col-12 col-md-4 col-lg-4 text-center text-md-start align-self-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+            <h2>
+              Benefits Belajar <br />
+              Bersama Kami ?
+            </h2>
+            <p class="pt-2">
+              Kami telah menyediakan banyak benefits & Bonus <br />
+              yang akan kamu dapatkan setelah <br />
+              mengikuti kelas kami.
+            </p>
+          </div>
+          <div class="col-12 col-md-8 col-lg-8 text-center text-md-start mb-4">
+            <div class="row justify-content-lg-center">
+              <div class="col-3 col-md-3 text-center" data-aos="fade-up" data-aos-duration="1000">
+                <img alt="" src="asset/images%20/icon grup diskusi.svg" />
+                <p class="mt-2">
+                  Grup <br />
+                  Diskusi Lifetime
+                </p>
+              </div>
+              <div class="col-3 col-md-3 text-center" data-aos="fade-up" data-aos-duration="1000">
+                <img alt="" src="asset/images%20/icon akses selamanya.svg" />
+                <p class="mt-2">
+                  Akses <br />
+                  Kelas Lifetime
+                </p>
+              </div>
+              <div class="col-3 col-md-3 text-center" data-aos="fade-up" data-aos-duration="1000">
+                <img alt="" src="asset/images%20/icon-up to date.svg" />
+                <p class="mt-2">
+                  Materi <br />
+                  Up-To-Date
+                </p>
+              </div>
+              <div class="col-3 col-md-3 text-center" data-aos="fade-up" data-aos-duration="1000">
+                <img alt="" src="asset/images%20/icon project.svg" />
+                <p class="mt-2">
+                  Project <br />
+                  Untuk Portofolio
+                </p>
+              </div>
             </div>
-            <div class="col-12  col-md-3 col-lg-3 mt-3">
-                <h6>Office</h6>
-                <a href=""> belajarberkarya@gmail.com</a>
-                <br>
-                <a class="pt-2" href=""> Cicelangka, Jawa Barat, ID <img
-                        alt="" src="asset/images%20/bendera indo.svg"> </a>
+            <div class="row mt-4">
+              <div class="col-3 col-md-3 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <img alt="" src="asset/images%20/icon sertifikat.svg" />
+                <p class="mt-2">
+                  Sertifikat <br />
+                  Kelulusan Kelas
+                </p>
+              </div>
+              <div class="col-3 col-md-3 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <img alt="" src="asset/images%20/icon dowload offline.svg" />
+                <p class="mt-2">
+                  Dowload <br />
+                  Project Offline
+                </p>
+              </div>
+              <div class="col-3 col-md-3 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <img alt="" src="asset/images%20/icon t-shirt.svg" />
+                <p class="mt-2">
+                  T-Shirt / Stiker <br />
+                  Eksklusif BB
+                </p>
+              </div>
+              <div class="col-3 col-md-3 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <img alt="" src="asset/images%20/icon pahala.svg" />
+                <p class="mt-2">
+                  Share Happiness<br />
+                  25% Sedekah
+                </p>
+              </div>
             </div>
-            <div class="col-13 pt-4 pt-md-0 col-md-3 col-lg-2 mt-3 d-mt-block">
-                <h6> Explore Us</h6>
-                <a href=""> Share Happiness </a>
-                <br>
-                <a href=""> Collabs With Us</a>
-                <br>
-                <a href=""> Contact Us</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- End  Benefits -->
+
+      <!-- Lets Join -->
+      <section class="lets-join bg-light" id="Lets-join">
+        <div class="row text-center pt-5">
+          <div class="col-12 mb-5">
+            <img alt="" src="asset/images%20/img-nisa.svg " />
+            <h2 class="pt-3">
+              “ Mari bergabung bersama lainnya, <br />
+              menciptakan karya luar biasa “
+            </h2>
+            <div class="col-12 text-center pt-4" data-aos="fade-up" data-aos-duration="2000">
+              <button class="btn btn-lg">Let's Join</button>
             </div>
-            <div class="col-12 pt-4 pt-md-0  col-md-3 col-lg-2 mt-3 d-mt-block ">
-                <h6>Bantuan</h6>
-                <a href=""> Question</a>
-                <br>
-                <a href=""> Cara Dapat Sertifikat</a>
-                <br>
-                <a href=""> Cara Order Kelas</a>
+          </div>
+        </div>
+      </section>
+      <!--  end lets join -->
+
+      <!-- Review member -->
+      <section class="review" id="Review">
+        <div class="container">
+          <div class="row text-center pt-5">
+            <div class="col-12 mb-5">
+              <h3>Review Para Member</h3>
+              <p>Review dari semua member setelah mengikuti kelas kami.</p>
+
+              <div class="carousel carousel-dark slide mt-5" data-bs-ride="carousel" id="carouselExampleDark">
+                <div class="carousel-indicators">
+                  <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleDark" type="button"></button>
+                  <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleDark" type="button"></button>
+                  <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleDark" type="button"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img alt="..." class="img-fluid" src="asset/images%20/foto nisa review.svg" />
+                    <div class="carousel pt-4">
+                      <img alt="" src="asset/images%20/bintang review.svg" />
+                      <h5 class="pt-4 carousel-h5">
+                        Semenjak saya ikut kelas UI UX Design di Belajar Berkarya <br />
+                        saya jadi lebih berani untuk explorasi design hhe.
+                      </h5>
+                      <h5 class="pt-3">Anisa Novianti Gunawan</h5>
+                      <p>UI UX Designer - Lulusan Kelas UI UX Designer</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img alt="..." class="img-fluid" src="asset/images%20/foto nisa review.svg" />
+                    <div class="carousel pt-3">
+                      <img alt="" src="asset/images%20/bintang review.svg" />
+                      <h5 class="pt-3 carousel-h5">
+                        Semenjak saya ikut kelas UI UX Design di Belajar Berkarya <br />
+                        saya jadi lebih berani untuk explorasi design hhe.
+                      </h5>
+                      <h5 class="pt-3">Anisa Novianti Gunawan</h5>
+                      <p>UI UX Designer - Lulusan Kelas UI UX Designer</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img alt="..." class="img-fluid" src="asset/images%20/foto nisa review.svg" />
+                    <div class="pt-3">
+                      <img alt="" src="asset/images%20/bintang review.svg" />
+                      <h5 class="carousel-h5 pt-3">
+                        Semenjak saya ikut kelas UI UX Design di Belajar Berkarya <br />
+                        saya jadi lebih berani untuk explorasi design hhe.
+                      </h5>
+                      <h5 class="pt-3">Anisa Novianti Gunawan</h5>
+                      <p>UI UX Designer - Lulusan Kelas UI UX Designer</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleDark" type="button">
+                  <span aria-hidden="true" class="carousel-control-prev"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleDark" type="button">
+                  <span aria-hidden="true" class="carousel-control-next"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
-            <div class="col-12 pt-4 pt-md-0  col-md-3 col-lg-2 mt-3 d-mt-block ">
-                <h6>Sosial</h6>
-                <a href=""> Instagram</a>
-                <br>
-                <a href=""> Facebook</a>
-                <br>
-                <a href=""> Whatsapp</a>
+          </div>
+        </div>
+      </section>
+      <!--  End Join -->
+
+      <!-- Tools Learn -->
+      <section class="tools" id="Tools">
+        <div class="row pt-5">
+          <div class="col text-center">
+            <h3>Tools Belajar</h3>
+            <p>
+              Beberapa Tools sering dipakai oleh para <br />
+              designer & Developer handal
+            </p>
+
+            <div class="row pt-5 justify-content-center m-lg-4">
+              <div class="col-4 col-md-2">
+                <img alt="" data-aos="fade-up" data-aos-duration="2000" src="asset/images%20/ai.svg" />
+              </div>
+              <div class="col-4 col-md-2">
+                <img alt="" data-aos="fade-up" data-aos-duration="2000" src="asset/images%20/photoshop.svg" />
+              </div>
+              <div class="col-4 col-md-2">
+                <img alt="" data-aos="fade-up" data-aos-duration="2000" src="asset/images%20/adobe xd.svg" />
+              </div>
+              <div class="col-4 pt-4 pt-md-0 col-md-2">
+                <img alt="" data-aos="fade-up" data-aos-duration="2000" src="asset/images%20/figma.svg" />
+              </div>
+              <div class="col-4 pt-4 pt-md-0 col-md-2">
+                <img alt="" data-aos="fade-up" data-aos-duration="2000" src="asset/images%20/vs code.svg" />
+              </div>
+              <div class="col-4 pt-4 pt-md-0 col-md-2">
+                <img alt="" data-aos="fade-up" data-aos-duration="2000" src="asset/images%20/talwind.svg" />
+                <br />
+              </div>
+              <div class="col-4 pt-4 pt-md-0 col-md-2 pt-lg-5">
+                <img alt="" data-aos="fade-up" data-aos-duration="2000" src="asset/images%20/js.svg" />
+              </div>
+              <div class="col-4 pt-4 pt-md-0 col-md-2 pt-lg-5" data-aos="fade-up" data-aos-duration="2000">
+                <img alt="" data-aos="fade-up" data-aos-duration="2000" src="asset/images%20/react.svg" />
+              </div>
+              <div class="col-4 pt-4 pt-md-0 col-md-2 pt-lg-5" data-aos="fade-up" data-aos-duration="2000">
+                <img alt="" data-aos="fade-up" data-aos-duration="2000" src="asset/images%20/circle etc.svg" />
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--End Body-->
+
+    <!--footer-->
+    <footer class="footer border-top" id="footer">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-12 col-md-3 mt-3 text-center text-md-start mb-5">
+            <img alt="" src="asset/images%20/logo A`l.svg" width="60" />
+            <h6 class="pt-3">
+              Belajar Berkarya <br />
+              Ciptakan Karya Luar Biasa
+            </h6>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 mt-3">
+            <h6>Office</h6>
+            <a href=""> belajarberkarya@gmail.com</a>
+            <br />
+            <a class="pt-2" href=""> Cicelangka, Jawa Barat, ID <img alt="" src="asset/images%20/bendera indo.svg" /> </a>
+          </div>
+          <div class="col-13 pt-4 pt-md-0 col-md-3 col-lg-2 mt-3 d-mt-block">
+            <h6>Explore Us</h6>
+            <a href=""> Share Happiness </a>
+            <br />
+            <a href=""> Collabs With Us</a>
+            <br />
+            <a href=""> Contact Us</a>
+          </div>
+          <div class="col-12 pt-4 pt-md-0 col-md-3 col-lg-2 mt-3 d-mt-block">
+            <h6>Bantuan</h6>
+            <a href=""> Question</a>
+            <br />
+            <a href=""> Cara Dapat Sertifikat</a>
+            <br />
+            <a href=""> Cara Order Kelas</a>
+          </div>
+          <div class="col-12 pt-4 pt-md-0 col-md-3 col-lg-2 mt-3 d-mt-block">
+            <h6>Sosial</h6>
+            <a href=""> Instagram</a>
+            <br />
+            <a href=""> Facebook</a>
+            <br />
+            <a href=""> Whatsapp</a>
+          </div>
         </div>
         <div class="row footer-copyright text-center pt-5 mb-3">
-            <div class="col-12 col-md-12">
-                <p> &#169;2021 • All Rights Reserved Belajar Berkarya • Designed by
-                    <a href="https://www.instagram.com/designstudio_al/?hl=en"> A'l Creative Design Std </a>
-                </p>
-            </div>
+          <div class="col-12 col-md-12">
+            <p>
+              &#169;2021 • All Rights Reserved Belajar Berkarya • Designed by
+              <a href="https://www.instagram.com/designstudio_al/?hl=en"> A'l Creative Design Std </a>
+            </p>
+          </div>
         </div>
-    </div>
-</footer>
-<!--End Footer-->
+      </div>
+    </footer>
+    <!--End Footer-->
 
-<script src="asset/script/main.js"></script>
-<script src="asset/jquery/jquery-3.5.1.min.js"></script>
-<script src="asset/Boostrap/js/bootstrap.js "></script>
-<script src="asset/Boostrap/js/aos.js"></script>
-<script>
-    AOS.init();
-</script>
-</body>
+    <script src="asset/script/main.js"></script>
+    <script src="asset/jquery/jquery-3.5.1.min.js"></script>
+    <script src="asset/Boostrap/js/bootstrap.js "></script>
+    <script src="asset/Boostrap/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
